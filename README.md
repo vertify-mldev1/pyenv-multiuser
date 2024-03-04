@@ -7,7 +7,7 @@ This plugin will solve this by having the base pyenv code look for a custom dire
 ## Installing as pyenv plugin
 Installing pyenv-multiuser as a pyenv plugin will give access to the `pyenv multiuser` command.
 
-    git clone https://github.com/macdub/pyenv-multiuser $(pyenv root)/plugins/pyenv-multiuser
+    git clone https://github.com/vertify-mldev1/pyenv-multiuser.git $(pyenv root)/plugins/pyenv-multiuser
 
 After installed, you should run `pyenv multiuser setup` to setup the pyenv to look for the `PYENV_LOCAL_SHIM` environment variable. Any users that may want to use can run `pyenv multiuser init` to setup their local shim directory settings.
 
